@@ -1,8 +1,6 @@
 on:
  schedule:
    - cron: '* * * * *'
- pull_request:
-   types: [opened, synchronize, reopened, closed]
 
 name: Update packages
 jobs:
